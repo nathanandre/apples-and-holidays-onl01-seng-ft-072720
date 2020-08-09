@@ -6,7 +6,7 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_has[:winter][:christmas] << supply
-
+  holiday_has[:winter][:new_years] << supply
 end
 
 
